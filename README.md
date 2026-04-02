@@ -1,10 +1,10 @@
-├── main.py               # Main scoring script
-├── mentors.csv           # Mentor data
-├── students.csv          # Student/mentee data
-├── interactions.csv      # Mentor-student interaction data
-├── feedbacks.csv         # Student feedback ratings
-├── mentor_scores.csv     # Output: ranked mentor scores (generated on run)
-├── requirements.txt      # Python dependencies
+main.py – scoring logic  
+mentors.csv – mentors data  
+students.csv – students data  
+interactions.csv – interaction logs  
+feedbacks.csv – feedback ratings  
+mentor_scores.csv – output (generated)  
+requirements.txt – dependencies  
 
 1. Install dependencies
 
@@ -27,10 +27,7 @@ python main.py
 
 ## Output Format
 
-
-|  Column  |           Description             |
-|          |                                   |
-| MentorID | Unique mentor identifier          |
-| Name     | Mentor name                       |
-| M        | Final Mentor Score (0–1)          |
-| Rank     | Rank in descending order of score |
+MentorID — Unique identifier for each mentor
+Name — Name of the mentor
+M — Final computed mentor score (range: 0–1)
+Rank — Ranking based on score (higher is better)
