@@ -28,6 +28,9 @@ python main.py
 ## Output Format
 
 MentorID — Unique identifier for each mentor
+
 Name — Name of the mentor
+
 M — Final computed mentor score (range: 0–1)
+
 Rank — Ranking based on score (higher is better)
